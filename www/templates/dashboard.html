@@ -1,0 +1,9 @@
+<ion-view view-title="Dashboard" ng-controller="DashboardController as dashboardCtrl">
+  <ion-content>
+    <h1>{{dashboardCtrl.description}}</h1>
+    <p>Dashboard de DSN-News</p>
+
+    <button class="button" style="background-color:tomato;color:white;"ng-click="dashboardCtrl.ShowText()">Mostrar noticia</button>
+    <p ng-model="dashboardCtrl.text">{{dashboardCtrl.text}} </p>
+  </ion-content>
+</ion-view>
