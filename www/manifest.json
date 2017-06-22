@@ -1,7 +1,7 @@
 
 {
-  "name": "My Ionic App",
-  "short_name": "My Ionic App",
+  "name": "Fake News",
+  "short_name": "Fake News",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{

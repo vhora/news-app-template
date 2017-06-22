@@ -1,5 +1,14 @@
 {
-  "name": "DSN.News",
-  "app_id": "",
-  "type": "ionic1"
+  "name": "Fake.News",
+  "app_id": "7590592d",
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*"
+  ],
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "https://jsonplaceholder.typicode.com/posts/"
+    }
+  ]
 }

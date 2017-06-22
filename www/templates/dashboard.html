@@ -1,9 +1,48 @@
 <ion-view view-title="Dashboard" ng-controller="DashboardController as dashboardCtrl">
-  <ion-content>
-    <h1>{{dashboardCtrl.description}}</h1>
-    <p>Dashboard de DSN-News</p>
+  <ion-content ng-init="dashboardCtrl.checkLogin()">
+    <div class="bar bar-header bar-calm">
+        <h1 class="title">Dashboard de Fake News</h1>
+    </div>
 
-    <button class="button" style="background-color:tomato;color:white;"ng-click="dashboardCtrl.ShowText()">Mostrar noticia</button>
-    <p ng-model="dashboardCtrl.text">{{dashboardCtrl.text}} </p>
+    <div class="list card">
+      <a href="#/editions">
+        <div class="item item-avatar item-icon-left">
+          <i class="icon ion-document-text"></i>
+          <h2>Publicações</h2>
+        </div>
+
+        <div class="card-cover">
+          <img class="full-image" src="img/editions-cover.jpg">
+        </div>
+      </a>
+    </div>
+
+    <div ng-show="user" class="list card">
+      <a href="#/user-profile">
+        <div class="item item-icon-left item-avatar">
+          <i class="icon ion-person"></i>
+          <h2>Minha conta</h2>
+          <p>{{user.username}}</p>
+        </div>
+
+        <div class="card-cover">
+          <div style="background-image:url({{user.image}});" class="profile-image"></div>
+        </div>
+      </a>
+    </div>
+
+    <div class="list card">
+      <a href="#/edition/1/Abril">
+        <div class="item item-avatar item-icon-left">
+           <i class="icon ion-heart"></i>
+          <h2>Favoritos</h2>
+          <p>3 Artigos</p>
+        </div>
+
+        <div class="card-cover">
+          <img class="full-image" src="img/favorite-articles.jpg">
+        </div>
+      </a>
+    </div>
   </ion-content>
 </ion-view>

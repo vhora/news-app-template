@@ -1,0 +1,18 @@
+<ion-view view-title="Artigo" ng-controller="ArticleController as articleCtrl">
+  <ion-content ng-init="articleCtrl.loadData()">
+    <div class="bar bar-header bar-calm">
+        <h1 class="title">{{articleCtrl.title}}</h1>
+    </div>
+    <div ng-show="article.title">
+        <div ng-show="article.urlToImage" style="background-image:url({{article.urlToImage}});" class="article-image"></div>
+        <div style="background: royalblue; padding: 1%;">
+            <h4 style="color: white;" ng-bind-html="article.title"></h4>
+        </div>
+        <div>
+            <p class="text" ng-bind-html="article.description">
+            </p>
+        </div>
+    </div>
+    
+  </ion-content>
+</ion-view>

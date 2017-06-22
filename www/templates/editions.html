@@ -1,0 +1,22 @@
+<ion-view view-title="Publicações" ng-controller="EditionsController as editionsCtrl">
+  <ion-content>
+    <div class="bar bar-header bar-calm">
+        <h1 class="title">Publicações de Fake News</h1>
+    </div>
+
+    <div class="list card" ng-repeat="edition in editionsCtrl.editions">
+
+        <a class="item item-icon-left"  href="#/edition/{{edition.id}}/{{edition.title}}">
+            <i class="icon ion-document-text"></i>
+            <span>
+                {{edition.title}}
+            </span>
+            <br />
+            <span style="color: grey; font-size: 11px;">
+                {{edition.date | date: "dd-MM-yyyy"}}
+            </span>
+        </a>
+
+    </div>
+  </ion-content>
+</ion-view>
