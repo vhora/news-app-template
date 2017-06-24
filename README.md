@@ -1,25 +1,26 @@
-Ionic App Base
-=====================
+<h2>Template de aplicativo híbrido com Cordova/Ionic e Angular js</h1>
 
-A starting project for Ionic that optionally supports using custom SCSS.
+Este é um template de um aplicativo para acesso a publicações de artigos ou informativos/notícias em geral.
+O mesmo foi desenvolvido com as tecnologias Cordova e Ionic, juntamente com Angular js, com o intuito de apresentar as tecnologias e demonstrar alguns elementos importantes dos frameworks.
 
-## Using this project
+<p>
+  <img src="images/login.png" width="200" heigt="600"/>
+  <img src="images/dashboard.png" width="200" heigt="600"/>
+  <img src="images/menu.png" width="200" heigt="600"/>
+  <img src="images/sobre.png" width="200" heigt="600"/>
+</p>
+<p align="center">
+  <img src="images/publicacoes.png" width="200" heigt="600"/>
+  <img src="images/publicacao.png" width="200" heigt="600"/>
+  <img src="images/artigo.png" width="200" heigt="600"/>
+</p>
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
+A API de liçenca livre* para consumo de notícias utilizada no app pode ser encontrada em: www.newsapi.org 
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
+Os fontes do projeto estão disponíveis para a comunidade. Caso tenha interesse em saber como o sistema foi desenvolvido, acompanhe o tutorial no link abaixo.
 
-```bash
-$ npm install -g ionic
-```
+[Tutorial app híbrido com Cordova e Ionic](https://github.com/vhora/news-app-template/blob/master/Tutorial-ionic.pdf)
 
-Then run: 
+Sinta-se livre para fazer melhorias no projeto e utilizá-lo para estudo ou projetos pessoais.
 
-```bash
-$ ionic start myProject tabs
-```
-
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
-
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+*é necessário adicionar uma referência ao site da API na sua aplicação.
