@@ -4,15 +4,15 @@ Este é um template de um aplicativo para acesso a publicações de artigos ou i
 O mesmo foi desenvolvido com as tecnologias Cordova e Ionic, juntamente com Angular js, com o intuito de apresentar as tecnologias e demonstrar alguns elementos importantes dos frameworks.
 
 <p>
-  <img src="images/login.png" width="200" heigt="600"/>
-  <img src="images/dashboard.png" width="200" heigt="600"/>
-  <img src="images/menu.png" width="200" heigt="600"/>
-  <img src="images/sobre.png" width="200" heigt="600"/>
+  <img src="screenshots/login.png" width="200" heigt="600"/>
+  <img src="screenshots/dashboard.png" width="200" heigt="600"/>
+  <img src="screenshots/menu.png" width="200" heigt="600"/>
+  <img src="screenshots/sobre.png" width="200" heigt="600"/>
 </p>
 <p align="center">
-  <img src="images/publicacoes.png" width="200" heigt="600"/>
-  <img src="images/publicacao.png" width="200" heigt="600"/>
-  <img src="images/artigo.png" width="200" heigt="600"/>
+  <img src="screenshots/publicacoes.png" width="200" heigt="600"/>
+  <img src="screenshots/publicacao.png" width="200" heigt="600"/>
+  <img src="screenshots/artigo.png" width="200" heigt="600"/>
 </p>
 
 A API de liçenca livre* para consumo de notícias utilizada no app pode ser encontrada em: www.newsapi.org 
