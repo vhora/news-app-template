@@ -30,6 +30,6 @@ function LoginController($window, $rootScope, $location, $ionicHistory, toastr, 
             $window.location.href = '#/dashboard';
         }
 
-        toastr.success('Bem vindo ' + $rootScope.user.username + '!');
+        toastr.success('Bem-vindo ' + $rootScope.user.username + '!');
     }
 }
